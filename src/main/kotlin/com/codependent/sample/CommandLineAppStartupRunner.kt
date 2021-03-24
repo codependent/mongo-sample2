@@ -10,7 +10,7 @@ import java.time.LocalDate
 import java.time.OffsetDateTime
 
 
-//@Component
+@Component
 class CommandLineAppStartupRunner(private val projectRepository: ProjectRepository) : CommandLineRunner {
 
     override fun run(vararg args: String) {
